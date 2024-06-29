@@ -4,44 +4,23 @@
         if(!isset($user_id)){
    header('location:admi.php');
 }?>
-<?php
- 
-      if(isset($_GET['logout'])){
-        $idd = $_SESSION['user_id'];
-        unset( $idd);
-        session_destroy();
-        header('location:admi.php');
-      }
-   ?>
-
-  
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Admin</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200&family=Poppins:wght@100;200;300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
-   
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200&family=Poppins:wght@100;200;300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="index.css">
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200&family=Poppins:wght@100;200;300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cairo:wght@200&family=Poppins:wght@100;200;300&family=Tajawal:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>espace d admin</title>
     <style>
         
 body {
     background-image: url('C:/Users/HP/Downloads/istockphoto-1211565306-1024x1024.jpg');
-padding:0; margin:0;
- font-style:'cairo';
+padding:0; margin:0; font-style:'cairo';
 }
 .mainn label{ top:6rem;position:relative;}
 
@@ -139,10 +118,10 @@ img{width:100px; height:100px;}
     border:2px solid black;
     border-radius:10px 50px ;
     width:24%;
-    height:50%;
+    height:56%;
     left:39%;
     box-shadow: 1px 1px 10px black;
-    top:30%;
+    top:25%;
     backdrop-filter:blur(1px); z-index: -1;
 }
 .mainn{
@@ -150,7 +129,7 @@ img{width:100px; height:100px;}
     border:2px solid black;
     border-radius:10px 50px ;
     width:25%;
-    height: 430px;;
+    height: 500px;;
     left:39%;
     box-shadow: 1px 1px 10px silver;
     top:15%;
@@ -172,33 +151,31 @@ padding:0.5rem;
 margin-bottom:0.5rem;
 
 }
-.we{ font-size:'cairo'; }
+.we{}
 .pepin a{ position:relative; top:5rem; text-decoration:none; color:white; font-weight:bold; font-size:18px; font-family:'cairo'}
 
 .mainn a{ position:relative; top:5rem; text-decoration:none; color:white; font-weight:bold; font-size:16px; font-family:'cairo'}
 
-.pepin button{position:relative; top:4.5rem;background:transparent;   border:2px solid black;  font-size:16px;
-  font-style:'cairo';
+.pepin button{position:relative; top:4.5rem;background:transparent;   border:2px solid black; font-style:'cairo'; font-size:16px;
+
     border-radius:8px 8px ; width:45%; padding:0.5rem;}
 .pepin button:hover{box-shadow:1px 1px 10px green;}
    
     .mainn button{position:relative; top:4.5rem;background:transparent;   border:2px solid black;
     border-radius:8px 8px ; width:30%; padding:0.5rem; color:white;}
      h2{position:relative; top:1.5rem; text-align:center; color:white; font-weight:bold;}
-     span{font-weight:bold; font-size:23px; margin-left:0.4rem;}
-     .log{left:69rem;position:relative; top:2px;}
-     .message{ border-radius:10px 10px; padding:7px 9px; width:360px; background-color:#EF5350;margin-bottom:0.3rem;}
-   
+     span{font-weight:bold; font-size:23px; margin-left:0.2rem;}
         </style>
         </head>
         <body>
 
   
         <nav class="navbar">
-  
-    <span onclick="home()">Home</span> 
-  
- 
+  <div class="container">
+    <span onclick="home()">Home</span>
+   
+    </ul>
+  </div>
 </nav> 
 <center>
 <div class="card" id="card">
@@ -206,28 +183,21 @@ margin-bottom:0.5rem;
   <div class="button-container">
     
 
-<button class="a" id="aa" onclick="ajouterpépinier()"> Ajouter Une Pépinière </button>
-<button class="a"id="aa" onclick="responsables()">Ajouter Un Responsable</button> 
+<button class="a" id="aa" onclick="ajouterpépinier()"> Ajouter Une Pepiniere </button>
+<button class="a"id="aa" onclick="responsables()">Ajouter Un Responsable</button>
 
 
 
   </div>
 </div>
-<?php
-if(isset($message)){
-   foreach($message as $message){
-      echo '<div class="message" onclick="this.remove();">'.$message.'</div>';
-   }
-} 
-?>
-       <div class="main" id="main">
+        <div class="main" id="main">
         <div class="pepin">
           
             <form action="insert.php" method="post" enctype="multipart/form-data">
-                <h2>Ajouter Une Pépinière</h2>
+                <h2>Ajouter une pépiniere</h2>
                 <input type="text" name='nom' placeholder="Nom" required>
                 <br>
-                <input type="text" name='addresse' placeholder="adresse" required>
+                <input type="text" name='addresse' placeholder="addresse" required>
               <br>
 
                 <button name='send'>Envoyer</button>
@@ -235,10 +205,10 @@ if(isset($message)){
                 <a href="afficherpepiniere.php">afficher la liste des pépinières</a>
             </form>
             </div>
-            </div> 
+            </div>
             
           
-        <div class="mainn" id="mainn"> 
+        <div class="mainn" id="mainn">
             <form action="" method="post" enctype="multipart/form-data">
                 <h2>Ajouter Un Responsable</h2>
                 <input type="text" name='nom' placeholder="NOM" required>
@@ -252,14 +222,14 @@ if(isset($message)){
                 <select  name='id-pepiniere' class="we" id="id-">
                 <?php
                   include('config.php');
-  $seeee="SELECT * FROM `pépinière`";
+  $seeee="SELECT * FROM `pépiniére`";
   $re=mysqli_query($con,$seeee);
   while($row=mysqli_fetch_assoc($re)){
     echo"<option value='$row[id]' name='id'>$row[nom]</option>";
   }
   ?>            </select></center>
                 <input type="file" id="file" name='image' style='display:none;' required>
-                <label for="file">Select une image</label>
+                <label for="file">select une image</label>
                 <button name='uploadd'>Envoyer</button>
                 <br><br>
                 <a href="afficherresponsable.php">afficher la liste des responsables</a>
@@ -288,37 +258,37 @@ if(isset($_POST['uploadd'])){
     ?>
            
 
-    <script>
-   document.getElementById('main').style.display='none';
+    <script >
+   
 
 
          function home()
       { document.getElementById('main').style.display='none';
-         document.getElementById('mainn').style.display = "none";
+        document.getElementById('mainn').style.display = "none";
 
- document.getElementById('card').style.display = "block";}
+document.getElementById('card').style.display = "block";}
       
- document.getElementById('main').style.display='none';
-         document.getElementById('mainn').style.display = "none";
+document.getElementById('main').style.display='none';
+        document.getElementById('mainn').style.display = "none";
 
- document.getElementById('card').style.display = "block";
+document.getElementById('card').style.display = "block";
    
 
         
 
- function ajouterpépinier() {
-     document.getElementById('card').style.display = "none";
+function ajouterpépinier() {
+    document.getElementById('card').style.display = "none";
 
-     document.getElementById('main').style.display = "block";
-     document.getElementById('mainn').style.display = "none";
- }
+    document.getElementById('main').style.display = "block";
+    document.getElementById('mainn').style.display = "none";
+}
 
- function responsables() {
-     document.getElementById('card').style.display = "none";
+function responsables() {
+    document.getElementById('card').style.display = "none";
 
     document.getElementById('main').style.display = "none";
-     document.getElementById('mainn').style.display = "block";
- }
+    document.getElementById('mainn').style.display = "block";
+}
     </script>
         </body>
       </html>
