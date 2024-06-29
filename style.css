@@ -1,0 +1,888 @@
+.pro {
+    border-radius: 12px;
+    width: 400px;
+    height: 78%;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: #fff;
+    left: 30%;
+}
+
+.pro input {
+    position: relative;
+    ;
+    box-shadow: 0 0 10px black;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 4rem;
+    border-radius: 12px;
+}
+
+.equipe input {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 4rem;
+    border-radius: 12px;
+    columns: rgba(255, 255, 255, .2);
+}
+
+.pro img {
+    position: relative;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+    ;
+    margin-top: 2.8rem;
+    border: 2px solid black;
+}
+
+.proff {
+    border-radius: 12px;
+    width: 400px;
+    top: 20%;
+    position: absolute;
+    height: 80%;
+    left: 40%;
+    background: transparent;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.proff input {
+    position: relative;
+    accent-color: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 3px;
+    padding: 7px 10px;
+    width: 75%;
+    top: 4rem;
+    border-radius: 12px;
+}
+
+.mm {
+    bottom: 3px;
+    width: 25%;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+    padding: 7px 3px;
+    accent-color: #fff;
+    background: #fff;
+    border-radius: 12px;
+    position: relative;
+    top: 6rem;
+}
+
+.pro img {
+    position: relative;
+    margin-top: 2.8rem;
+}
+
+.proff img {
+    position: relative;
+    margin-top: 2.8rem;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+}
+
+.proff label {
+    position: relative;
+    left: 3px;
+}
+
+.chef label {
+    top: 4.6rem;
+    position: relative;
+    margin-right: 0.3rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    padding: 7px;
+    color: whitesmoke;
+}
+
+.chef {
+    border-radius: 12px;
+    width: 400px;
+    top: 20%;
+    position: absolute;
+    height: 80%;
+    left: 60%;
+    color: whitesmoke;
+    background: transparent;
+    box-shadow: 0 0 10px black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.equipe {
+    border-radius: 12px;
+    width: 400px;
+    top: 2rem;
+    position: relative;
+    height: 440px;
+    left: 30%;
+    color: black;
+    background: transparent;
+    box-shadow: 0 0 10px black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.chef button {
+    color: whitesmoke;
+}
+
+.div h2 {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.div {
+    border-radius: 12px;
+    width: 400px;
+    height: 380px;
+    background: transparent;
+    box-shadow: 0 0 10px black;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 30%;
+}
+
+.div button {
+    text-align: center;
+    width: 35%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 4rem;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-top: 0.9rem;
+}
+
+.mesa {
+    text-align: center;
+    width: 35%;
+    height: 30px;
+    background: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px blue;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 4.6rem;
+    position: relative;
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-top: 0.9rem;
+    padding: 0.5rem;
+}
+
+.equipe button {
+    text-align: center;
+    width: 35%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 4rem;
+    position: relative;
+    border: 2px solid black;
+    margin-top: 0.9rem;
+}
+
+.div .d {
+    padding: 5px 5px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'cairo';
+    font-weight: bolder;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #23242b;
+    color: #fff;
+}
+
+.u-name {
+    font-size: 20px;
+    padding-left: 17px;
+}
+
+.u-name b {
+    color: #127b8e;
+}
+
+.header i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.header i:hover {
+    color: #127b8e;
+}
+
+.user-p {
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.user-p h4 {
+    color: #ccc;
+    padding: 5px 0;
+}
+
+.side-bar {
+    width: 250px;
+    background: #262931;
+    min-height: 100vh;
+    transition: 500ms width;
+}
+
+
+
+.section-1 {
+    width: 100%;
+    background: url("aa.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1 p {
+    color: #127b8e;
+    font-size: 20px;
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.side-bar ul {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.side-bar ul li {
+    font-size: 16px;
+    padding: 15px 0px;
+    padding-left: 20px;
+    transition: 500ms background;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.side-bar ul li:hover {
+    background: #127b8e;
+}
+
+.side-bar ul li a {
+    text-decoration: none;
+    color: #eee;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.side-bar ul li a i {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}
+
+#navbtn {
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 20px;
+    transition: 500ms color;
+}
+
+#checkbox {
+    display: none;
+}
+
+#checkbox:checked~.body .side-bar {
+    width: 60px;
+}
+
+#checkbox:checked~.body .side-bar .user-p {
+    visibility: hidden;
+}
+
+#checkbox:checked~.body .side-bar a span {
+    display: none;
+}
+
+.reunion h2 {
+    color: #fff;
+}
+
+.reunion input {
+    position: relative;
+    accent-color: #fff;
+    margin-right: 3px;
+    padding: 7px;
+    width: 75%;
+    margin-bottom: 1rem;
+    top: 9rem;
+    border-radius: 12px;
+}
+
+.btn {
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 35%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    margin-top: 3.6rem;
+    text-align: center;
+}
+
+.profile-sidebar {
+    border-radius: 12px;
+    background-color: #fff;
+    height: 500px;
+    ;
+    width: 25%;
+    top: 5rem;
+    position: absolute;
+}
+
+.profile-sidebar button {
+    text-align: center;
+    width: 30%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    margin-top: 0.8rem;
+    border: 2px solid black;
+    position: relative;
+}
+
+.profile-sidebar img {
+    position: relative;
+    margin-top: 2.5rem;
+    box-shadow: 0 0 10px rgb(125, 235, 35);
+}
+
+.profile-sidebar span {
+    font-size: 16px;
+    top: 1.2rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.projet button {
+    text-align: center;
+    width: 50%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 7rem;
+    position: relative;
+}
+
+.pro input {
+    position: relative;
+    ;
+    box-shadow: 0 0 10px black;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 4rem;
+    border-radius: 12px;
+}
+
+
+.bloc {
+    border-radius: 12px;
+    width: 400px;
+    height: 50%;
+    position: absolute;
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 40%;
+    top: 19rem;
+    color: whitesmoke;
+}
+
+.plante input {
+    border: 2px solid black;
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.bloc input {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 2rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.bloc a {
+    top: 5rem;
+    position: relative;
+    color: blue
+}
+
+.bloc button {
+    font-family: Arial, sans-serif;
+    width: 40%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 4.6rem;
+    position: relative;
+    border: 2px solid black;
+}
+
+.ouvr .ttt {
+    border: 2px solid rgba(255, 255, 255, .2);
+    width: 35%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    position: relative;
+    color: black;
+    top: 4.6rem;
+    margin-left: 2.5rem;
+    font-family: arial, sans-serif;
+    box-shadow: 0 0 10px black;
+    padding: 9px 9px;
+    border-radius: 12px;
+    margin-right: 0.5rem;
+}
+
+.profile-sidebar input {
+    position: relative;
+    text-align: center;
+    box-shadow: 0 0 10px silver;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    border-radius: 12px;
+}
+
+.profile-sidebar label {
+    color: rgba(255, 255, 255, .2);
+    margin-left: 5px;
+}
+
+.ssss {
+    position: absolute;
+    top: 12rem;
+    border-radius: 20px 20px;
+    background-color: #fff;
+    width: 25%;
+    height: 68%;
+}
+
+.ssss img {
+    border: 2px solid black;
+    border-radius: 80%;
+    top: 1rem;
+    position: relative;
+    box-shadow: 0 0 10px black;
+}
+
+.ssss span {
+    font-size: 16px;
+    top: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    font-family: arial, sans-serif;
+}
+
+.ssss label {
+    position: relative;
+    margin-bottom: 0.3rem;
+    color: #333;
+    top: 4rem;
+    margin-left: 2.5rem;
+    font-family: arial, sans-serif;
+}
+
+.ssss input {
+    position: relative;
+    margin-left: 3rem;
+    box-shadow: 0 0 10px silver;
+    border: none;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    top: 3.8rem;
+    padding: 9px 9px;
+    width: 75%;
+    border-radius: 12px;
+}
+
+.ssss .s {
+    font-family: Arial, sans-serif;
+    width: 30%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: 2px solid black;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    top: 7rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.ssss .sss {
+    font-family: Arial, sans-serif;
+    width: 30%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    border: 2px solid black;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    top: 6rem;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.ssss .ss {
+    font-family: Arial, sans-serif;
+    width: 30%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    top: 2.5rem;
+    position: relative;
+}
+
+.ssss .aa {
+    font-family: 'cairo';
+    width: 30%;
+    height: 45px;
+    background: rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 1.6rem;
+    left: 5rem;
+    position: relative;
+    border: 2px solid black;
+}
+
+.ssss .s:hover {
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.ssss .ss:hover {
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.ssss .aa:hover {
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.ssss .sss:hover {
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+
+
+
+.soukaina {
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 30%;
+    height: 270px;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 10px silver;
+    text-align: center;
+    top: 20rem;
+    left: 35%;
+}
+
+.rrr input {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 70%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.soukaina input {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.ee p {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.rrr h2 {
+    position: relative;
+    top: 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.ro h1 {
+    position: relative;
+    top: 2rem;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.e {
+    top: 35rem;
+    position: absolute;
+    color: black;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.b {
+    font-weight: bold;
+    font-size: 40px;
+    font-size: 20px;
+    color: black;
+    top: 9rem;
+    left: 25rem;
+    position: absolute;
+}
+
+.chef button {
+    text-align: center;
+    width: 35%;
+    height: 45px;
+    background: #fff;
+    border: 2px solid black;
+    font-weight: bold;
+    outline: none;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    top: 4.6rem;
+    position: relative;
+    border: 2px solid black;
+}
+
+.ee {
+    border-radius: 12px;
+    border: 2px solid black;
+    width: 30%;
+    height: 270px;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 0 0 10px silver;
+    text-align: center;
+    top: 20rem;
+    left: 35%;
+}
+
+.ee input {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+    accent-color: #fff;
+    background: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 1.5rem;
+    border-radius: 12px;
+    color: black;
+}
+
+.mpro {
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 210px;
+    height: 270px;
+    float: left;
+    background-color: transparent;
+    box-shadow: 0 0 10px silver;
+    margin-top: 2rem;
+    margin-right: 1.3rem;
+    left: 0.6rem;
+}
+
+.mpro p {
+    position: relative;
+    box-shadow: 0 0 10px black;
+    border: 2px solid black;
+    accent-color: #fff;
+    margin-right: 3px;
+    margin-top: 1rem;
+    margin-bottom: 1px;
+    padding: 9px 9px;
+    width: 75%;
+    top: 5rem;
+    border-radius: 12px;
+    font-size: 14px;
+    color: black;
+}
+
+.u {
+    top: 14rem;
+    position: relative;
+}
+.div
